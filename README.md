@@ -208,17 +208,16 @@ Current lifecycle stage of the project.
 
 **Standard Status Codes**:
 
-| Code | Status | Description | Color |
-|------|--------|-------------|-------|
-| `PLAN` | Planning | Requirements gathering, design | 🟦 Blue |
-| `POC` | Proof of Concept | Initial feasibility testing | 🟧 Orange |
-| `DEV` | Development | Active development | 🟨 Yellow |
-| `TEST` | Testing | QA/Testing phase | 🟪 Purple |
-| `UAT` | User Acceptance Testing | End-user testing | 🟪 Purple |
-| `PROD` | Production | Live/deployed | 🟩 Green |
-| `MAINT` | Maintenance | Production + ongoing updates | 🟩 Green |
-| `SUSP` | Suspended | Temporarily paused | ⚪ Gray |
-| `ARCH` | Archived | Completed/deprecated | ⚫ Black |
+| Code | Status | Description | 
+|------|--------|-------------|
+| `PLAN` | Planning | Requirements gathering, design | 
+| `POC` | Proof of Concept | Initial feasibility testing | 
+| `DEV` | Development | Active development | 
+| `TEST` | Testing | QA/Testing phase |
+| `UAT` | User Acceptance Testing | End-user testing | 
+| `PROD` | Production | Live/deployed | 
+| `MAINT` | Maintenance | Production + ongoing updates | 
+| `ARCH` | Archived | Completed/deprecated |
 
 **Status Transitions**:
 ```
