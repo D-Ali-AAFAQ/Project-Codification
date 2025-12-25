@@ -49,8 +49,8 @@ Applies to all:
 ### Structure Breakdown
 | Segment | Length | Required | Example |
 |---------|--------|----------|---------|
-| Serial Number | 3 chars | Yes | `01` or `A1` |
-| Project ID | 2-3 chars | Yes | `AVA` |
+| Serial Number | 3 chars | Yes | `001` |
+| Project ID | 3 chars | Yes | `AVA` |
 | Artifact Type | 3 chars | Yes | `WEB` |
 | Status | 3 chars | Yes | `PRD` |
 
@@ -82,10 +82,9 @@ Sequential project identifier for easy reference and sorting.
 
 **Rules**:
 - Always use 2-3 characters
-- Start with `01`, `02`, etc.
-- After `99`, use `A1`, `A2`, etc.
+- Start with `001`, `002`, etc.
 - Once assigned, never change the serial number
-- Reserve `00` for shared/administrative folders
+- Reserve `000` for shared/administrative folders
 
 **When to Increment**:
 - New project starts → Assign next available number
@@ -97,7 +96,7 @@ Sequential project identifier for easy reference and sorting.
 Short, memorable identifier for the specific project.
 
 **Guidelines**:
-- 2-3 characters maximum
+- 3 characters (Fixed)
 - Abbreviate key project name terms
 - Make it pronounceable if possible
 - Avoid numbers unless necessary
@@ -109,12 +108,12 @@ Short, memorable identifier for the specific project.
 - Real-time Data Bridge → `RDB`
 - Supplier Agent Tool → `SAT`
 
-**Method 2: Truncation (2-3 chars)**
+**Method 2: Truncation (3 chars)**
 - Vision Project → `VIS`
 - Hub Application → `HUB`
 - Studio Platform → `STU`
 
-**Method 3: Key Term (2-3 chars)**
+**Method 3: Key Term (3 chars)**
 - Chatbot → `CHT`
 - Recommendation → `REC`
 - Fraud Detection → `FRD`
@@ -241,9 +240,9 @@ Since version numbers are removed from the naming convention, track changes thro
 
 ```
 [Serial]-[ProjID]-[Type]-[Status]
-  01    -  AVA   - WEB -  PRD
+  001    -  AVA   - WEB -  PRD
 
-Step 1: Assign next serial number (01-99, then A1-Z9)
+Step 1: Assign next serial number (001-099, 100-999 )
 Step 2: Create 2-3 char project ID
 Step 3: Select 3-char artifact type
 Step 4: Set 3-char current status
@@ -286,12 +285,12 @@ SUS - Suspended
 ### Complete Real-World Examples
 
 #### Example 1: HR Avatar Assistant
-**Current Name**: `01. HR Avatar Assistant`
+**Current Name**: `001. HR Avatar Assistant`
 
-**New Codification**: `01-AVA-WEB-PRD`
+**New Codification**: `001-AVA-WEB-PRD`
 
 **Breakdown**:
-- `01` = First project in portfolio
+- `001` = First project in portfolio
 - `AVA` = Avatar
 - `WEB` = Web application
 - `PRD` = Production/live
@@ -299,12 +298,12 @@ SUS - Suspended
 ---
 
 #### Example 2: AAFAQ AI Vision
-**Current Name**: `02. AAFAQ AI Vision`
+**Current Name**: `002. AAFAQ AI Vision`
 
-**New Codification**: `02-VIS-PRG-PLN`
+**New Codification**: `002-VIS-PRG-PLN`
 
 **Breakdown**:
-- `02` = Second project
+- `002` = Second project
 - `VIS` = Vision
 - `PRG` = Program (collection of projects)
 - `PLN` = In planning phase
@@ -361,11 +360,11 @@ PROJECT NAMING WORKSHEET
 
 Project Name: _________________________________
 
-1. Serial Number: ____ 
+1. Serial Number: (3 chars) ____ 
    Next available: __
-   (Use 01-99, then A1-Z9)
+   (Use 001-099, then 100-999
 
-2. Project ID (2-3 chars): ___
+2. Project ID (3 chars): ___
    Based on: □ Acronym  □ Key Term  □ Truncation
    
 3. Artifact Type (3 chars): ___
