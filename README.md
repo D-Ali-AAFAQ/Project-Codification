@@ -27,7 +27,7 @@ This document establishes a standardized naming convention for all AI program pr
 - **Removed Department segment** for simplified structure
 - **Removed Versioning segment** - version tracking via file history
 - **Maximum 3 characters** for all segments
-- **Ultra-concise** 4-segment naming structure
+- **concise** 4-segment naming structure
 
 ### Scope
 Applies to all:
@@ -58,7 +58,7 @@ Applies to all:
 - Use **HYPHENS (-)** as separators
 - Use **UPPERCASE** for all segments
 - **NO SPACES** in any segment
-- **Maximum 3 characters** per segment
+- **(Fixed) 3 characters** per segment
 
 ---
 
@@ -81,7 +81,7 @@ Sequential project identifier for easy reference and sorting.
 - `115` - 115th project
 
 **Rules**:
-- Always use 2-3 characters
+- Always use 3 characters
 - Start with `001`, `002`, etc.
 - Once assigned, never change the serial number
 - Reserve `000` for shared/administrative folders
@@ -92,7 +92,7 @@ Sequential project identifier for easy reference and sorting.
 
 ---
 
-### 2. Project ID [XX to XXX]
+### 2. Project ID [XXX to XXX]
 Short, memorable identifier for the specific project.
 
 **Guidelines**:
@@ -243,7 +243,7 @@ Since version numbers are removed from the naming convention, track changes thro
   001    -  AVA   - WEB -  PRD
 
 Step 1: Assign next serial number (001-099, 100-999 )
-Step 2: Create 2-3 char project ID
+Step 2: Create 3-char project ID
 Step 3: Select 3-char artifact type
 Step 4: Set 3-char current status
 ```
@@ -252,11 +252,11 @@ Step 4: Set 3-char current status
 
 | Scenario | Example Code |
 |----------|--------------|
-| New web app in development | `XX-PRJ-WEB-DEV` |
-| Production API service | `XX-PRJ-API-PRD` |
-| ML model in testing | `XX-PRJ-MOD-TST` |
-| Infrastructure server | `XX-PRJ-SRV-PRD` |
-| Documentation folder | `XX-DOC-DOC-ONG` |
+| New web app in development | `XXX-PRJ-WEB-DEV` |
+| Production API service | `XXX-PRJ-API-PRD` |
+| ML model in testing | `XXX-PRJ-MOD-TST` |
+| Infrastructure server | `XXX-PRJ-SRV-PRD` |
+| Documentation folder | `XXX-DOC-DOC-ONG` |
 
 ### All 3-Character Codes
 
