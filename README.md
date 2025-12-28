@@ -23,12 +23,6 @@ This document establishes a standardized naming convention for all AI program pr
 - **Traceability**: Track project evolution and versions
 - **Consistency**: Uniform approach across all teams
 
-### Key Changes in v3.0
-- **Removed Department segment** for simplified structure
-- **Removed Versioning segment** - version tracking via file history
-- **Maximum 3 characters** for all segments
-- **concise** 4-segment naming structure
-
 ### Scope
 Applies to all:
 - AI/ML project folders in SharePoint
@@ -55,7 +49,7 @@ Applies to all:
 | Status | 3 chars | Yes | `PRD` |
 
 ### Format Rules
-- Use **HYPHENS (-)** as separators
+- Use **HYPHENS (.)** as separators
 - Use **UPPERCASE** for all segments
 - **NO SPACES** in any segment
 - **(Fixed) 3 characters** per segment
@@ -64,7 +58,7 @@ Applies to all:
 
 ## Segment Definitions
 
-### 1. Serial Number [XX or XXX]
+### 1. Serial Number [XXX or XXX]
 Sequential project identifier for easy reference and sorting.
 
 **Format**: 3 character identifier
